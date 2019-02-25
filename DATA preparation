@@ -1,0 +1,5 @@
+
+data<-read.csv(file.choose(),header=T,sep=",") # read CSV file
+fix(data)# show data
+ftable(data$x1) #frequency od data for feature x1
+str(data) # summary of data
